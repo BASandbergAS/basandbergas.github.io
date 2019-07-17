@@ -1,0 +1,68 @@
+html {
+	padding: 0;
+	margin: 0;
+	background-image: url(pics/back_loop.jpg);
+	background-attachment: fixed;
+	height: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, sans-serif;
+	color: #000;
+	background-image: url(pics/back.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top center;
+/*	overflow: hidden;*/
+	height: 100%;
+}
+#content {
+	margin: 0 auto;
+	padding: 0;
+	background-image: url(pics/back_content.png);
+	background-position: center;
+	background-repeat: repeat-y;
+	width: 768px;
+}
+#textC {
+	padding: 0 2em;
+}
+#footer {
+	background-image: url(pics/footer.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 33px;
+	margin: 0;
+	padding: 0;
+}
+.flyt {
+	width: 200px;
+	float: right;
+}
+img {
+	border: 3px solid #bbb;
+}
+h1 {
+	margin: 0;
+/*	background-image: url(pics/logo.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;*/
+	width: 700px;
+	height: 100px;
+	font-size: 28pt;
+	text-align: center;
+	text-shadow: 0px 2px 5px #555;
+}
+h1 span {
+	font-size: 18pt;
+}
+h2 {
+	font-size: 12pt;
+}
+h3 {
+	font-size: 10pt;
+}
+p, table {
+	font-size: 10pt;
+}
